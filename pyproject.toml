@@ -1,5 +1,5 @@
 [project]
-name = "12-project"
+name = "customer-feedback-analyzer"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
@@ -15,9 +15,6 @@ dependencies = [
     "requests>=2.34.2",
     "streamlit>=1.58.0"
 ]
-
-[project.scripts]
-12-project = "12_project:main"
 
 [build-system]
 requires = ["uv_build>=0.12.7,<0.13.0"]
